@@ -9,13 +9,11 @@ disableKinds = ["taxonomy"]
     title = "Sada Theme"
     author = "Darshan Baral"
     description = "Simple portfolio theme"
-    copyright = "Custom copyright message"
     theme = "dark" # `dark` or `light`
 
     # Profile section
     [params.profile]
         name = "William Naylor-Lovell"
-        title = "Dr."
         photo = "images/profile.jpg"
 
     # Section for links to social websites
@@ -70,7 +68,7 @@ disableKinds = ["taxonomy"]
         interest = "Algorithm Development"
 
     [params.aboutme]
-        description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut uip ex ea commodo consequat."
+        description = "I am a programmer with particular interest in gameplay programming and algorithm development. I have just completed my Ph.D. in content-aware adaptive networking algorithms."
 
     # Experiences section
     [params.experiences]
