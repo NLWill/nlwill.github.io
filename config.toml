@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://nlwill.github.io/"
 languageCode = "en-us"
 disableKinds = ["taxonomy"]
 
@@ -14,8 +14,8 @@ disableKinds = ["taxonomy"]
 
     # Profile section
     [params.profile]
-        name = "First Last"
-        title = "Abbr., K.A."
+        name = "William Naylor-Lovell"
+        title = "Dr."
         photo = "images/profile.jpg"
 
     # Section for links to social websites
@@ -24,39 +24,29 @@ disableKinds = ["taxonomy"]
 
         [[params.social.list]]
         icon = "fab fa-linkedin-in"
-        url = "#"
+        url = "https://www.linkedin.com/in/william-naylor-lovell"
         title = "LinkedIn"
 
         [[params.social.list]]
         icon = "fab fa-github"
-        url = "#"
-        title = "GitHub"
-		
-		[[params.social.list]]
-        icon = "ai ai-google-scholar"
-        url = "#"
-        title = "Google Scholar"
-		
-		[[params.social.list]]
-        icon = "ai ai-researchgate"
-        url = "#"
-        title = "ResearchGate"		
+        url = "https://github.com/NLWill"
+        title = "GitHub"	
 
     # Education section
     [params.education]
         title = "Education"
 
         [[params.education.list]]
-        degree = "Masters in Degree 1"
-        college = "University Number 1"
-        dates = "2016 - 2018"
-        thesis_title = "Title of the dissertation"
+        degree = "Doctor of Philosophy"
+        college = "University of Warwick"
+        dates = "2020 - 2025"
+        thesis_title = "Perception-based adaptive tick rates: Efficient networks for immersive and stable collaborative virtual reality"
         thesis_link = "#"
 
         [[params.education.list]]
-        degree = "Bachelors in Degree 2"
-        college = "University Number 2"
-        dates = "2010 - 2014"
+        degree = "BSc in Physics"
+        college = "University of Warwick"
+        dates = "2017 - 2020"
 
     # Languages section
     [params.language]
@@ -65,73 +55,67 @@ disableKinds = ["taxonomy"]
         [[params.language.list]]
         language = "English"
         level = "Fluent"
-				
-        [[params.language.list]]
-        language = "Bird"
-        level = "Basic"
 
     # Interests section
     [params.hobbies]
-        title = "Hobbies"
+        title = "Interests"
 
         [[params.hobbies.list]]
-        interest = "Travelling"
+        interest = "Mathematics"
 		
 		[[params.hobbies.list]]
-        interest = "Music"
+        interest = "Video Games"
 
         [[params.hobbies.list]]
-        interest = "Flying"
-
-        [[params.hobbies.list]]
-        interest = "Baking"
+        interest = "Algorithm Development"
 
     [params.aboutme]
-        description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut uip ex ea commodo consequat."
 
     # Experiences section
     [params.experiences]
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Job Number 1"
-        dates = "2018 - *Present*"
-		link = "#"
-        company = "Company name 1"
+        position = "Graduate Teaching Assistant"
+        dates = "March 2023"
+        company = "WMG, University of Warwick"
+        #details = "#"
 
         [[params.jobs.list]]
-        position = "Job Number 2"
-        dates = "2016 - 2018"
-		link = "#"
-        company = "Company name 2"
-        details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        position = "Graduate Design Technologist"
+        dates = "June 2020 - July 2020"
+        company = "Mark Lovell Design Engineers"
+
+        [[params.jobs.list]]
+        position = "Undergraduate Research Assistant"
+        dates = "July 2019 - May 2020"
+        company = "WMG, University of Warwick"
+        #details = "#"
 
     # Projects section
     [params.projects]
         title = "Projects"
 
         [[params.projects.list]]
-        title = "Awesome Project 1"
-        url = "#"
-        description = "Description of the *awesome* project 1"
+        title = "Realtime Isosurface Generation"
+        url = "https://github.com/NLWill/Realtime-Isosurface-Generation"
+        description = "A C++ and HLSL project built in Unreal Engine 5 using the Marching Tetrahedra algorithm and GPU parallelism to generate meshes in real-time."
 		
 		[[params.projects.list]]
-        title = "Awesome Project 2"
-        url = "#"
-        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        title = "M.A.T.T Uprising"
+        url = "https://github.com/TheFakeMatthew/GDG_GJ2025"
+        description = "An asymmetric local multiplayer survival horror game in Unreal Engine 5, created for the GDG game jam 2025."
 
     # Skills section
     [params.skills]
         title = "Skills"
 
         [[params.skills.list]]
-        skill = "Skill 1, Skill 2"
-        skillrating = 95 # out of 100
+        skill = "C++, C#, HLSL, C, Python"
                 
         [[params.skills.list]]
-        skill = "Skill 3"
-        skillrating = 90
+        skill = "Unreal Engine, Unity, Git"
 		
         [[params.skills.list]]
-        skill = "Skill 4"
-        skillrating = 80
+        skill = "Network Development, Mathematical Analysis"
