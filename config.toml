@@ -6,9 +6,9 @@ disableKinds = ["taxonomy"]
     writeStats = true
 
 [params]
-    title = "Sada Theme"
-    author = "Darshan Baral"
-    description = "Simple portfolio theme"
+    title = "Personal Portfolio"
+    author = "William Naylor-Lovell"
+    description = "About me"
     theme = "dark" # `dark` or `light`
 
     # Profile section
