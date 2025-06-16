@@ -39,7 +39,7 @@ disableKinds = ["taxonomy"]
         college = "University of Warwick"
         dates = "2020 - 2025"
         thesis_title = "Perception-based adaptive tick rates: Efficient networks for immersive and stable collaborative virtual reality"
-        thesis_link = "#"
+        thesis_link = "https://wrap.warwick.ac.uk/191491/"
 
         [[params.education.list]]
         degree = "BSc in Physics"
