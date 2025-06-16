@@ -74,6 +74,13 @@ disableKinds = ["taxonomy"]
     [params.experiences]
         title = "Experiences"
 
+
+        [[params.jobs.list]]
+        position = "Volunteer Systems Developer"
+        dates = "May 2025 - Present"
+        company = "Aomame Space"
+        #details = "#"
+
         [[params.jobs.list]]
         position = "Graduate Teaching Assistant"
         dates = "March 2023"
